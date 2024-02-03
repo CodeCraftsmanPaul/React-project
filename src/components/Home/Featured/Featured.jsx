@@ -3,42 +3,48 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import FeatureCard from "./FeatureCard";
+import CarFeature1 from "../../../assets/img/car1.png";
+import CarFeature2 from "../../../assets/img/car2.png";
+import CarFeature3 from "../../../assets/img/car3.png";
+import CarFeature4 from "../../../assets/img/car4.png";
+import CarFeature5 from "../../../assets/img/car5.png";
+import CarFeature6 from "../../../assets/img/car6.png";
 
 const Featured = () => {
   const carsData = [
     {
       id: 0,
-      img: "/src/assets/img/car1.png",
+      img: CarFeature1,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 1,
-      img: "/src/assets/img/car2.png",
+      img: CarFeature2,
       name: "BMW 3 Series",
       price: "54,890",
     },
     {
       id: 2,
-      img: "/src/assets/img/car3.png",
+      img: CarFeature3,
       name: "Mercedes",
       price: "75,890",
     },
     {
       id: 3,
-      img: "/src/assets/img/car4.png",
+      img: CarFeature4,
       name: "BMW 7 Series",
       price: "55,786",
     },
     {
       id: 4,
-      img: "/src/assets/img/car5.png",
+      img: CarFeature5,
       name: "Mercedes-Benz",
       price: "95,776",
     },
     {
       id: 5,
-      img: "/src/assets/img/car6.png",
+      img: CarFeature6,
       name: "Range Rover",
       price: "88,450",
     },
