@@ -6,6 +6,7 @@ import CarNews2 from "../../../assets/img/news2.jpg";
 import CarNews3 from "../../../assets/img/news3.jpg";
 import CarNews4 from "../../../assets/img/news4.jpg";
 import CarNews5 from "../../../assets/img/news5.jpg";
+import CarNews6 from "../../../assets/img/news6.jpg";
 const CarNews = () => {
   const newData = [
     {
@@ -30,12 +31,12 @@ const CarNews = () => {
     },
     {
       id: 4,
-      img: "/src/assets/img/news5.jpg",
+      img: CarNews5,
       desc: "First shift: New-vehicle inventory reaches 3-years high",
     },
     {
       id: 5,
-      img: CarNews5,
+      img: CarNews6,
       desc: "JLR India sales rise 74% in Q3 on robust demand for Rage Rover Velar , Defender",
     },
   ];
