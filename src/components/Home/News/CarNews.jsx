@@ -1,27 +1,31 @@
 import React, { isValidElement } from "react";
 import Slider from "react-slick";
 import CarNewsCard from "./CarNewsCard";
-
+import CarNews1 from "../../../assets/img/news1.jpg";
+import CarNews2 from "../../../assets/img/news2.jpg";
+import CarNews3 from "../../../assets/img/news3.jpg";
+import CarNews4 from "../../../assets/img/news4.jpg";
+import CarNews5 from "../../../assets/img/news5.jpg";
 const CarNews = () => {
   const newData = [
     {
       id: 0,
-      img: "/src/assets/img/news1.jpg",
+      img: CarNews1,
       desc: "Toyota touts internal combustion engine potential, even in Ev age  ",
     },
     {
       id: 1,
-      img: "/src/assets/img/news2.jpg",
+      img: CarNews2,
       desc: "BMW Group India clocks best-ever annual sales in 2023, leads Luxury electric car segment   ",
     },
     {
       id: 2,
-      img: "/src/assets/img/news3.jpg",
+      img: CarNews3,
       desc: "MG Astor 2024 launched  in India, price start at Rs 9.98 lakh ",
     },
     {
       id: 3,
-      img: "/src/assets/img/news4.jpg",
+      img: CarNews4,
       desc: "Kia Sonet facelift  launched in india at Rs 7.99 lakh, Tata Nexon & Maruti Suzuki Brezza rival    ",
     },
     {
@@ -31,7 +35,7 @@ const CarNews = () => {
     },
     {
       id: 5,
-      img: "/src/assets/img/news6.jpg",
+      img: CarNews5,
       desc: "JLR India sales rise 74% in Q3 on robust demand for Rage Rover Velar , Defender",
     },
   ];
